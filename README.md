@@ -7,5 +7,6 @@ Multiple algorithms, data structures from multiple sources
 
 | Name | Level | TC  |
 | ---- | ----- | --- |
-| [Linear Table](01-linear-table.go) | Easy | O(n)
-| [Maximun Value](02-max-value.go) | Easy | O(n)
+| [Linear Table](001-linear-table.go) | Easy | O(n)
+| [Maximun Value](002-max-value.go) | Easy | O(n)
+| [Minimun Value](003-minimun-value.go) | Easy | O(n)
