@@ -3,7 +3,7 @@
 Name: Max/Min Value
 Level: Easy
 TC: O(n)
-Desc: Find the minium and max avalue
+Desc: Find the minimum and maximum value
 
 */
 
