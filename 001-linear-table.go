@@ -1,3 +1,6 @@
+//go:build ignore
+// +build ignore
+
 /*
 Name: Linear Table Definition
 Source: Graphic Go Algorithms Book
