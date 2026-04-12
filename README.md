@@ -24,6 +24,15 @@ Multiple algorithms and data-structure practice exercises from multiple sources.
 | [Linear Append](010-linear-append.go) | Easy | O(n) |
 | [Linear Insert](011-linear-insert.go) | Easy | O(n) |
 | [Linear Delete](012-linear-delete.go) | Easy | O(n) |
-| [Word Break](100-word-break.go) | Medium | varies by approach |
-| [Naive Fibonacci](200-fibonacci.go) | Easy | O(1.618^n) |
+| [Linear Is Sorted](013-linear-is-sorted-.go) | Easy | O(n) |
+| [Linear Sum](014-linear-sum.go) | Easy | O(n) |
+| [Linear Count Evens and Odds](015-linear-count.go) | Easy | O(n) |
+| [Linear Reverse](016-linear-reverse.go) | Easy | O(n) |
 | [Memoization Fibonacci](200-fibonacci-dp.go) | Medium | O(n) |
+
+## Study Plan
+
+Roadmap files:
+
+- [Linear Arrays and Basics](linear-basics.md)
+- [Strings Basics](strings-basics.md)
