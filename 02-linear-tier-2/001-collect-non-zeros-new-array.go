@@ -6,21 +6,25 @@ package main
 import "fmt"
 
 /*
-Name: Linear Collect Non-Zeros Into New Array (Placeholder)
+Name: Linear Collect Non-Zeros Into New Array
 Level: Easy
 TC: O(n)
 SC: O(n)
 Desc: Build a new array with non-zero values in the same order.
 */
 
-// TODO:
-// 1) Allocate result with capacity len(a)
-// 2) Append/copy only non-zero values in order
-// 3) Return result
 func collectNonZeros(a []int) []int {
-	panic("TODO: implement collectNonZeros")
+	result := make([]int, 0, len(a))
+	for i := range a {
+		if a[i] != 0 {
+			result = append(result, a[i])
+		}
+	}
+	return result
 }
 
 func main() {
-	fmt.Println("TODO: implement and run collectNonZeros")
+
+	fmt.Println(collectNonZeros([]int{1, 3, 0, 4}))
+
 }
