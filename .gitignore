@@ -27,6 +27,12 @@ go.work.sum
 # env file
 .env
 
+# debugger files
+__*
+
+# bench files
+*data*
+
 # Editor/IDE
 # .idea/
 # .vscode/
