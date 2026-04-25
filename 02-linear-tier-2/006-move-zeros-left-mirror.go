@@ -13,14 +13,18 @@ SC: O(1) extra
 Desc: Mirror of move-zeros-right by reversing scan/write direction.
 */
 
-// TODO:
-// 1) Scan right to left
-// 2) Write non-zeros toward the right side
-// 3) Fill the remaining left side with zeros
 func moveZerosLeftMirror(a []int) []int {
-	panic("TODO: implement moveZerosLeftMirror")
+	writer := len(a) - 1
+	for i := writer; i >= 0; i-- {
+		if a[i] != 0 {
+			a[writer], a[i] = a[i], a[writer]
+			writer--
+		}
+	}
+
+	return a
 }
 
 func main() {
-	fmt.Println("TODO: implement and run moveZerosLeftMirror")
+	fmt.Println(moveZerosLeftMirror([]int{1, 0, 2, 0, 3}))
 }
