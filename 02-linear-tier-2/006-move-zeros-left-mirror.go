@@ -6,7 +6,7 @@ package main
 import "fmt"
 
 /*
-Name: Linear Move Zeros Left (Mirror Version) Placeholder
+Name: Linear Move Zeros Left (Mirror Version)
 Level: Easy
 TC: O(n)
 SC: O(1) extra

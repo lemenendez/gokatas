@@ -6,17 +6,18 @@ package main
 import "fmt"
 
 /*
-Name: Linear Move Any Target To End (Placeholder)
+Name: Linear Move Any Target To End
 Level: Easy
 TC: O(n)
 SC: O(1) extra
 Desc: Generalize move-zeros by moving any target value k to the end.
+Use compaction pattern with swap + write pointer.
 */
 
-// TODO:
-// 1) Reuse the same compaction pattern
-// 2) Keep values where a[i] != target
-// 3) Fill tail with target value
+// moveTargetToEnd moves every target value to the end in-place.
+// It preserves the relative order of non-target values.
+// TC: O(n)
+// SC: O(1) extra
 func moveTargetToEnd(a []int, target int) []int {
 	writer := 0
 	for i := 0; i < len(a); i++ {
@@ -30,4 +31,9 @@ func moveTargetToEnd(a []int, target int) []int {
 
 func main() {
 	fmt.Println(moveTargetToEnd([]int{1, 0, 2, 0, 3}, 0))
+	fmt.Println(moveTargetToEnd([]int{0, 0, 1, 2, 3}, 0))
+	fmt.Println(moveTargetToEnd([]int{1, 2, 3}, 0))
+	fmt.Println(moveTargetToEnd([]int{7, 7, 7}, 7))
+	fmt.Println(moveTargetToEnd([]int{}, 0))
+	fmt.Println(moveTargetToEnd([]int{2, 1, 2, 3, 2, 4}, 2))
 }

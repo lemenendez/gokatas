@@ -39,8 +39,9 @@ Multiple algorithms and data-structure practice exercises from multiple sources.
 | 001 | [Collect Non-Zeros Into New Array](02-linear-tier-2/001-collect-non-zeros-new-array.go) | O(n) |
 | 002 | [Compact In Place Without Fill](02-linear-tier-2/002-compact-in-place-no-fill.go) | O(n) |
 | 003 | [Compact In Place With Fill](02-linear-tier-2/003-compact-in-place-with-fill.go) | O(n) |
-| 004 | [Move Zeros Right (Write-Then-Fill)](02-linear-tier-2/004-move-zeros-right-write-then-fill.go) | O(n) |
-| 005 | [Move Zeros Right (Swap Write Pointer)](02-linear-tier-2/005-move-zeros-right-swap-write-pointer.go) | O(n) |
-| 006 | [Move Zeros Right (Two-Index Window)](02-linear-tier-2/006-move-zeros-right-two-index-window.go) | O(n) |
-| 007 | [Move Zeros Left (Mirror)](02-linear-tier-2/007-move-zeros-left-mirror.go) | O(n) |
-| 008 | [Move Any Target To End](02-linear-tier-2/008-move-target-to-end.go) | O(n) |
+| 004 | [Move Zeros (Swap Write Pointer)](02-linear-tier-2/004-move-zeros-swap-write-pointer.go) | O(n) |
+| 005 | [Move Zeros (Two-Index Window)](02-linear-tier-2/005-move-zeros-two-index-window.go) | O(n) |
+| 006 | [Move Zeros Left (Mirror)](02-linear-tier-2/006-move-zeros-left-mirror.go) | O(n) |
+| 007 | [Move Any Target To End](02-linear-tier-2/007-move-target-to-end.go) | O(n) |
+| 008 | [Linear Filter Pattern](02-linear-tier-2/008-filters.go) | O(n) |
+| 009 | [Remove Duplicates (Sorted Invariant / Dictionary)](02-linear-tier-2/009-remove-dups-invariant.go) | O(n) |
