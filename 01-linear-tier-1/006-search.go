@@ -3,10 +3,11 @@
 
 /*
 
-Name: Linear Search (Generics)
+Name: Linear Search
 Level: Easy
 TC: O(n)
 Desc: Find the index of a target element in an array using linear search
+Returns the first matching index of the target element, or -1 if not found.
 */
 
 package main

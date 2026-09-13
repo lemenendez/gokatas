@@ -4,11 +4,10 @@
 /*
 
 Name: Minimum Value
-From: Graphic Go Algorithms
-Credits: Yan Hu
 TC: O(n)
-Desc: Set min value with the content of arr[0], compare with the rest of the array and update
-the min value and index if applies
+Desc: Finds the minimum value in an array of integers.
+returns the minimum value in the array.
+
 
 */
 

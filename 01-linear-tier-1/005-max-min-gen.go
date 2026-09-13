@@ -20,12 +20,17 @@ import (
 
 func minmax[K cmp.Ordered](a []K) (K, K) {
 	var min, max K
+
+	if len(a) == 0 {
+		return min, max
+	}
+
 	if len(a) > 0 {
 		min = a[0]
 		max = a[0]
 	}
 
-	for i := 0; i < len(a); i++ {
+	for i := range a {
 		if a[i] < min {
 			min = a[i]
 		}
