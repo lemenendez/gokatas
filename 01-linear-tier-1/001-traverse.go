@@ -2,10 +2,9 @@
 // +build ignore
 
 /*
-Name: Linear Table Definition
-Source: Graphic Go Algorithms Book
-Credits: Yan Hu
+Name: Array Traverse
 Level: Easy
+Description: Visit each element of an array from left to right
 TC: O(n)
 */
 
