@@ -56,15 +56,14 @@ func removeDupsWithDict(a []int) []int {
 }
 
 func main() {
-	/*
-		fmt.Println(removeDupsInvariant([]int{}))
-		fmt.Println(removeDupsInvariant([]int{1, 1}))
-		fmt.Println(removeDupsInvariant([]int{1, 2, 2}))
-		fmt.Println(removeDupsInvariant([]int{1, 1, 2, 2}))
-		fmt.Println(removeDupsInvariant([]int{1, 1, 1}))
-		fmt.Println(removeDupsInvariant([]int{1, 2, 3, 4, 5, 5, 6, 6}))
-		fmt.Println(removeDupsInvariant([]int{5, 5, 6, 6}))
-	*/
+
+	fmt.Println(removeDupsInvariant([]int{}))
+	fmt.Println(removeDupsInvariant([]int{1, 1}))
+	fmt.Println(removeDupsInvariant([]int{1, 2, 2}))
+	fmt.Println(removeDupsInvariant([]int{1, 1, 2, 2}))
+	fmt.Println(removeDupsInvariant([]int{1, 1, 1}))
+	fmt.Println(removeDupsInvariant([]int{1, 2, 3, 4, 5, 5, 6, 6}))
+	fmt.Println(removeDupsInvariant([]int{5, 5, 6, 6}))
 
 	fmt.Println(removeDupsWithDict([]int{}))
 	fmt.Println(removeDupsWithDict([]int{1, 1}))
