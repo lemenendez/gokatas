@@ -17,7 +17,7 @@ Multiple algorithms and data-structure practice exercises from multiple sources.
 | 001 | [Array Traverse](01-linear-tier-1/001-traverse.go) | O(n) |
 | 002 | [Find Max / Min Value](01-linear-tier-1/002-max-min.go) | O(n) |
 | 003 | [Find Max Value by Swapping](01-linear-tier-1/003-max-swap.go) | O(n) |
-| 004 | [Find Min Value](01-linear-tier-1/004-min-swap.go) | O(n) |
+| 004 | [Find Min Value](01-linear-tier-1/004-min.go) | O(n) |
 | 005 | [Find Max / Min Value (Generics)](01-linear-tier-1/005-max-min-gen.go) | O(n) |
 | 006 | [Linear Search](01-linear-tier-1/006-search.go) | O(n) |
 | 007 | [Linear Search (Generics)](01-linear-tier-1/007-search-gen.go) | O(n) |
